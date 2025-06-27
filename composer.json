@@ -1,0 +1,24 @@
+{
+    "name": "pablopetr/laravel-state-machine",
+    "description": "Laravel-friendly state machine with class-based transitions and attribute binding",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StateMachine\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0|^12.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StateMachine\\StateMachineServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
