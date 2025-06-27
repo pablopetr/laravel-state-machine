@@ -46,15 +46,15 @@ class OrderStateMachine extends StateMachine
         ];
     }
     
-     public static function callbacks(): array
-     {
+    public static function callbacks(): array
+    {
         return [];
-     }
+    }
      
-     public static function guessModel(): string
-     {
+    public static function guessModel(): string
+    {
         return Order::class;
-     }
+    }
 }
 ```
 
